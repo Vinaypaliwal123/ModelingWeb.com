@@ -1,0 +1,98 @@
+body{
+    background-image: url(images/bg.webp);
+    margin: 0;
+    height:110vh;
+    background-size: 2000px;
+    opacity: 200px;
+    
+}
+header{
+    display: flex;
+    padding: 20px;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    position: sticky;
+    top:0;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    width: 60px;
+}
+.logo p{
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.navbar{
+    width:600px;
+    position: absolute;
+    right:0;
+    font-size: larger;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    margin:20px;
+}
+#home{
+    color: salmon;
+}
+.navbar a:hover{
+    color:salmon;
+}
+
+#heading{
+    color: rgb(248, 109, 93);
+    position: relative;
+    top:50px;
+    left:70px;
+    width: fit-content;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+}
+#heading+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 35px;
+    position: relative;
+    top:5px;
+    left:90px;
+    
+}
+#heading+h3+p{
+    color:rgba(255, 255, 255, 0.772);
+    font-size:20px;
+    position: relative;
+    top:20px;
+    left:80px;
+    word-spacing: 4px;
+    font-family: 'Roboto';
+    font-style: italic;
+}
+.register{
+    width: 150px;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(251, 94, 76);
+    position: relative;
+    top:20px;
+    left:70px;
+    font-family: 'Roboto';
+    font-size: large;
+    border-radius: 20px;
+}
+.register:hover{
+    background-color: rgba(215, 215, 215, 0.075);
+    color: white;
+    border: 2px solid salmon;
+}
+
+footer{
+    color: white;
+    position: fixed;
+    bottom:0;
+    font-family: 'Roboto';
+}
